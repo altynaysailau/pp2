@@ -7,7 +7,7 @@ print("=========================================================================
 print("DN                                                 Description           Speed    MTU  ")
 print("-------------------------------------------------- --------------------  ------  ------")
 
-with open('json/sample-data.json') as f:
+with open('/Users/altynajsajlau/Documents/GitHub/pp2/lab04/json/sample-data.json') as f:
     data = json.load(f)
 
 request_from_server = data["imdata"][0]["l1PhysIf"]["attributes"]["dn"]
